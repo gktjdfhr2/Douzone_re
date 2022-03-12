@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.accent {
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}
+
+body, div {
+	
+}

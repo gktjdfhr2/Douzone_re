@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="day09_api/src/|lambda_network/src/|day04_controller/src/|day15_network/src/|day26_jdbc_gui/src/|day03_operator/src/|day14_gui/src/|BaekjoonAlgorisms/src/|day07_oop/src/|day11_io/src/|day 10_collection/src/|day08_oop/src/|day05_array/src/|day24_jdbc/src/|day27_quiz/src/|day25_jdbc/src/|day06_method_oop/src/|day13_thread/src/|quiz/src/|day02_basic/src/|BaekjoonAlgorism/BaekjoonAlgorism/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="BaekjoonAlgorism/BaekjoonAlgorism/src"/>
+	<classpathentry kind="src" path="BaekjoonAlgorisms/src"/>
+	<classpathentry kind="src" path="day 10_collection/src"/>
+	<classpathentry kind="src" path="day02_basic/src"/>
+	<classpathentry kind="src" path="day03_operator/src"/>
+	<classpathentry kind="src" path="day04_controller/src"/>
+	<classpathentry kind="src" path="day05_array/src"/>
+	<classpathentry kind="src" path="day06_method_oop/src"/>
+	<classpathentry kind="src" path="day07_oop/src"/>
+	<classpathentry kind="src" path="day08_oop/src"/>
+	<classpathentry kind="src" path="day09_api/src"/>
+	<classpathentry kind="src" path="day11_io/src"/>
+	<classpathentry kind="src" path="day13_thread/src"/>
+	<classpathentry kind="src" path="day14_gui/src"/>
+	<classpathentry kind="src" path="day15_network/src"/>
+	<classpathentry kind="src" path="day24_jdbc/src"/>
+	<classpathentry kind="src" path="day25_jdbc/src"/>
+	<classpathentry kind="src" path="day26_jdbc_gui/src"/>
+	<classpathentry kind="src" path="day27_quiz/src"/>
+	<classpathentry kind="src" path="lambda_network/src"/>
+	<classpathentry kind="src" path="quiz/src"/>
+	<classpathentry kind="output" path="BaekjoonAlgorism/BaekjoonAlgorism/bin"/>
+</classpath>

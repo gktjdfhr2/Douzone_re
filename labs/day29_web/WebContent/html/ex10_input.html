@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex10_input.html</title>
+</head>
+<body>
+	<form action="../jsp/result.jsp" method="get">
+		<!-- required = "required -->
+		취미:
+		<select size="3" multiple="multiple">
+			<option>선택하세요.</option>
+			<option>게임</option>
+			<option>낮잠자기</option>
+			<option>독서</option>
+			<option>등산</option>
+			<option>노래하기</option>
+		</select>
+	</form>
+
+	<br><br>
+	<textarea rows="5" cols="55">자기소개 쓰는 곳입니다.</textarea>
+	<br><br>
+	
+	range : <input type="range" max="100" min ="0"> <br>
+	radio : <input type="radio" name="check_info"> 남 <input type="radio" name="check_info"> 여 <br>
+	<h4>전송방식 : get</h4>
+	<form action="../jsp/result.jsp" method="get">
+		이름 : <input type = "text" name = "name" id = "name" required = "required" placeholder="이름을 입력하세요"> <br>
+		비번 : <input type = "password" name = "pwd" id = "pwd" required placeholder="패스워드를 입력하세요"> <br>
+		hidden : <input type="hidden"> <br>
+		search : <input type="search" placeholder="검색어를 입력하세요"> <br>
+		tel : <input type="tel"> <br>
+		url : <input type="url" placeholder="http://www.naver.com"> <br>
+		tel: <input type="email" placeholder="kosa@sw.or.kr"> <br>
+		number : <input type="number"> <br>
+		time : <input type="time">
+		date : <input type="date"> <br>
+		text : <input type="text" size="20" maxlength="10">
+		<br>
+		&nbsp;&nbsp; <input type ="submit" value="전송"> &nbsp;&nbsp;
+					<input type = "reset" value="취소">
+	</form>
+	<br><hr><br>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+	header {
+		border-bottom: 0.1em solid black;
+		text-align:center;
+		margin-bottom: 1em;
+	}
+	div{
+		text-align:center;				
+	}
+	
+	table {		
+		border: 1px solid black;					
+		margin: 0 auto;	
+		text-align:left;	
+	}
+	tbody{
+		
+	}
+	tbody tr td {
+		background-color: rgb(207,224,255);
+		border:0.1em solid black;
+		font-size:1.5em;
+		align-items: center;
+	}
+	.first {		
+		text-align: center;
+		width:10em;
+	}
+	.required {
+		color:red;
+	}
+	
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>회원 정보 입력</h1>
+		</nav>
+	</header>
+	
+	<main>
+		<div>
+			<form action="">
+			<table>
+				<tbody>
+					<tr><td class="first"><span class="required">*</span>I D</td><td><input type="text" placeholder="ID입력"></td></tr>
+					<tr><td class="first"><span class="required">*</span>Password</td><td><input type="text" placeholder="Password 입력"></td></tr>
+					<tr><td class="first"><span class="required">*</span>Password 확인</td><td><input type="text" placeholder="Password 재입력"> </td></tr>
+					<tr><td class="first"><span class="required">*</span>전화번호</td><td> <select> <option id ="010">010</option> <option id ="011">011</option> </select> - <input type="text"> - <input type="text"> </td></tr>
+					<tr><td class="first">직 업</td><td><input type="text" placeholder="ID입력"></td></tr>
+					<tr><td class="first">성 별</td><td><input type="radio" name = "gender">남자 <input type="radio" name = "gender">여자</td></tr>
+					<tr><td class="first">취 미</td><td><input type="checkbox" name ="hobby"> 독서 
+														<input type="checkbox" name ="hobby"> 수영
+														<input type="checkbox" name ="hobby"> 게임
+														<input type="checkbox" name ="hobby"> 영화감상
+														<input type="checkbox" name ="hobby"> 음악듣기</td></tr>
+					<tr><td class="first">자기소개</td><td> <textarea rows="50" cols="75"></textarea> </td></tr>				
+				</tbody>
+			</table>			
+			<br>
+		&nbsp;&nbsp; <input type ="submit" value="전송"> &nbsp;&nbsp;
+					<input type = "reset" value="취소">
+			</form>
+		</div>
+	</main>
+</body>
+</html>
